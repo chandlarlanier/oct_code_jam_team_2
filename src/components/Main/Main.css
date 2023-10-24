@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+    color: white;
+}
+
+.main__app-description {
+    width: 50%;
+}
+
+.main__movie-cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.movie-cards__left-scroll {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-scroll__arrow {
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.movie-cards__right-scroll {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-scroll__arrow {
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.main__movie-description {
+    width: 50%;
+    margin-top: 10px;
+}
