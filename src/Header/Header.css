@@ -1,0 +1,26 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 33.33vh;
+}
+
+.header__logo {
+  margin-right: 20px;
+}
+
+.header__description {
+  text-align: center;
+}
+
+.header__description h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.header__description p {
+  font-size: 1.2rem;
+}
