@@ -1,7 +1,7 @@
 .movie-card {
     width: 13rem;
     height: 21rem;
-    margin: 2rem;
+    margin: 1rem 2rem;
     border-radius: 10px;
     /* position: relative; */
     background-color: rgba(255, 71, 71, 0.765);
@@ -11,21 +11,30 @@
 .movie-card__poster {
     height: 15rem;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     /* background-size: contain; */
+}
+
+.movie-card__image {
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 .movie-card__overlay {
     height: 100%;
     width: 100%;
     position: absolute;
-    top: -11px;
     visibility: hidden;
+    padding: 0.2rem 1rem;
+    text-align: left;
+    font-size: 0.85rem;
 }
 
 .active {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     visibility: visible;
 }
 
@@ -36,4 +45,5 @@
 .movie-card__title {
     padding: 0.2rem;
     font-size: 0.8rem;
+    font-weight: 700;
 }

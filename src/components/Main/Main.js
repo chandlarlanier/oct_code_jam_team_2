@@ -9,7 +9,7 @@ const Main = () => {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 700,
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
@@ -49,9 +49,9 @@ const Main = () => {
         movies, share your opinions, and discover new frightful favorites.
       </div>
       <div className="main__carousel">
-        <Slider {... settings}>
+        <Slider {... settings} className='carousel__slider'>
           {movieArray.map((movie) => {
-            return <MovieCard title={movie.Title} poster={movie.Card} />;
+            return <MovieCard title={movie.title} poster={movie.card} description={movie.description} />;
           })}
         </Slider>
       </div>
