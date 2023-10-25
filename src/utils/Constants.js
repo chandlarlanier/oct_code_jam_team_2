@@ -1,5 +1,5 @@
 // Array of Movie cards data
-export const MovieCards = [
+export const movieArray = [
   {
     Title: "Monster House",
     Card: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zCRPr4bkO3ae0U1134vJ39xZnAG.jpg",

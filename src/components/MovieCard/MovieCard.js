@@ -2,7 +2,7 @@ import "./MovieCard.css";
 import StarRating from "../StarRating/StarRating";
 import { useState } from "react";
 
-const MovieCard = () => {
+const MovieCard = ({title}) => {
     const [hover, setHover] = useState(0);
   return (
     <div className="movie-card">
@@ -12,7 +12,7 @@ const MovieCard = () => {
             <p className='movie-card__description'>Description here</p>
         </div>
       </div>
-      <div className="">Title here</div>
+      <div className="">{title}</div>
       <StarRating />
     </div>
   );
