@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: center;
     margin-top: -40px;
-    color: white;
 }
 
 .main__app-description {
@@ -33,6 +32,7 @@
     height: 30px;
     width: 30px;
     color: white;
+    cursor: pointer;
 }
 
 .movie-cards__right-scroll {
@@ -49,6 +49,7 @@
     height: 30px;
     width: 30px;
     color: white;
+    cursor: pointer;
 }
 
 .main__movie-description {
