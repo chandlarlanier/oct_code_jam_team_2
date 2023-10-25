@@ -18,8 +18,8 @@ const MovieCard = ({ title, poster, description }) => {
       </div>
       <div className="movie-card__info">
         <p className="movie-card__title">{title}</p>
-        <StarRating />
       </div>
+      <StarRating />
     </div>
   );
 };

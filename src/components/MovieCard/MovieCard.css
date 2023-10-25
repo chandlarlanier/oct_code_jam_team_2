@@ -40,10 +40,18 @@
 
 .movie-card__info {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .movie-card__title {
     padding: 0.2rem;
     font-size: 0.8rem;
-    font-weight: 700;
+    font-weight: 600;
+    height: 30px;
+}
+
+.movie-card__star-rating {
+
 }
