@@ -1,3 +1,7 @@
+// https://api.themoviedb.org/3/movie/550?api_key=40b82095796d66b2654433539771f575
+// https://api.themoviedb.org/3/authentication
+//API Key: 40b82095796d66b2654433539771f575
+
 export const baseUrl = "http://localhost:3000";
 
 export const handleServerResponse = (res) => {
@@ -12,13 +16,15 @@ const options = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MGI4MjA5NTc5NmQ2NmIyNjU0NDMzNTM5NzcxZjU3NSIsInN1YiI6IjY1Mzg1YTE1MGZiMTdmMDBhYmMwZGJjZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ZUteWxr5wlR37wgL0g6EuvrQEggfxBEwiHUr3Oxd8ew",
+    Authorization: "Bearer 40b82095796d66b2654433539771f575",
   },
 };
 
 export const authenticate = () => {
-  return fetch("https://api.themoviedb.org/3/authentication", options)
+  return fetch(
+    "https://api.themoviedb.org/3/movie/550?api_key=40b82095796d66b2654433539771f575",
+    options
+  )
     .then((response) => response.json())
     .catch((err) => console.error(err));
 };
