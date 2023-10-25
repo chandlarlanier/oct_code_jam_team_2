@@ -12,48 +12,10 @@
     width: 50%;
 }
 
-.main__movie-cards {
-    display: flex;
-    flex-direction: row;
+.main__carousel {
+    /* display: flex;
+    flex-direction: row; */
     margin-top: 40px;
-    align-items: center;
-}
-
-.movie-cards__left-scroll {
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    margin-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.left-scroll__arrow {
-    height: 30px;
-    width: 30px;
-    color: white;
-    cursor: pointer;
-}
-
-.movie-cards__right-scroll {
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    margin-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.right-scroll__arrow {
-    height: 30px;
-    width: 30px;
-    color: white;
-    cursor: pointer;
-}
-
-.main__movie-description {
-    width: 50%;
-    margin-top: 10px;
+    /* align-items: center; */
+    width: 70%;
 }
