@@ -6,9 +6,9 @@ button {
 }
 
 .on {
-    color: #000;
+    color: #fff;
 }
 
 .off {
-    color: #fff;
+    color: rgba(18, 18, 18, 0.4);
 }
