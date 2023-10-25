@@ -17,7 +17,6 @@ const Main = () => {
             <img className='right-scroll__arrow' src={rightArrow}/>
         </div>
       </div>
-      <div className="main__movie-description">Selected movie description will go here.</div>
     </div>
   );
 };
