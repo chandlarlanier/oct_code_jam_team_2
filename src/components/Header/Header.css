@@ -1,10 +1,10 @@
 .header {
   display: flex;
-  padding: 0 20px;
+  padding: 0 1rem;
   width: 100%;
 }
 
 .header__logo {
-  height: 175px;
-  width: 175px;
+  height: 12rem;
+  width: 13rem;
 }

@@ -2,20 +2,21 @@
     display: flex;
     flex-direction: column;
     max-width: 1400px;
+    width: 68rem;
     align-items: center;
     justify-content: center;
-    margin-top: -40px;
     color: white;
 }
 
 .main__app-description {
     width: 50%;
+    margin-top: -1.5rem;
 }
 
 .main__carousel {
     /* display: flex;
     flex-direction: row; */
-    margin-top: 40px;
+    margin-top: 2rem;
     /* align-items: center; */
     width: 70%;
 }
