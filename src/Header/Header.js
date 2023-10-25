@@ -1,18 +1,10 @@
-import React from "react";
-import logo from "../logo.svg";
 import "./Header.css";
+import logo from "../../images/logo.png";
 
 const Header = () => {
-  return (
-    <header className="header">
-      <div className="header__logo">
-        <img src={logo} alt="logo" />
-      </div>
-      <div className="header__description">
-        <p>Discover the spookiest movies for your Halloween night!</p>
-      </div>
-    </header>
-  );
+  return (<div className="header">
+    <img className="header__logo" src={logo} alt="Haunted Tomatoes logo"/>
+  </div>);
 };
 
 export default Header;
