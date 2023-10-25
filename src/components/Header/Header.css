@@ -1,6 +1,7 @@
 .header {
   display: flex;
   padding: 0 20px;
+  width: 100%;
 }
 
 .header__logo {
