@@ -5,8 +5,7 @@
     border-radius: 10px;
     /* position: relative; */
     background-color: rgba(255, 71, 71, 0.765);
-    overflow: hidden;
-}
+    overflow: hidden;}
 
 .movie-card__poster {
     height: 15rem;
