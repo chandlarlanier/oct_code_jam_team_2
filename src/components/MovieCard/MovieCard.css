@@ -1,7 +1,7 @@
 .movie-card {
     width: 200px;
     height: 270px;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 10px;
     border-radius: 4px;
     position: relative;
@@ -13,6 +13,8 @@
     height: 85%;
     width: 100%;
     z-index: 1;
+    overflow: hidden;
+    background-size: contain;
 }
 
 .movie-card__overlay {

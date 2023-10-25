@@ -9,7 +9,7 @@ const Main = () => {
       <div className="main__movie-cards">
         <div className="movie-cards__left-scroll"></div>
         {movieArray.map((movie) => {
-          return <MovieCard title={movie.Title}/>
+          return <MovieCard title={movie.Title} poster={movie.Card}/>
         })}
         <div className="movie-cards__right-scroll">
         </div>
