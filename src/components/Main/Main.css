@@ -47,14 +47,13 @@
 }
 
 @media (min-width: 1050px) {
-
-    .main {
-        margin-top: -60px;
-    }
-    .main__app-description {
-        width: 800px;
-        font-size: 1.4rem;
-    }
+  .main {
+    margin-top: -60px;
+  }
+  .main__app-description {
+    width: 800px;
+    font-size: 1.4rem;
+  }
 
   .main__carousel {
     width: 990px;
