@@ -6,7 +6,7 @@
   justify-content: center;
   color: white;
   width: 95vw;
-  margin-top: -30px;
+  margin-top: -40px;
   min-height: 80vh;
 }
 
@@ -42,10 +42,20 @@
 
   .main__app-description {
     width: 600px;
+    font-size: 1.2rem;
   }
 }
 
 @media (min-width: 1050px) {
+
+    .main {
+        margin-top: -60px;
+    }
+    .main__app-description {
+        width: 800px;
+        font-size: 1.4rem;
+    }
+
   .main__carousel {
     width: 990px;
   }
