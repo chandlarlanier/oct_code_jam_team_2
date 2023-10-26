@@ -22,7 +22,7 @@
   width: 100%;
   position: absolute;
   visibility: hidden;
-  transition: background-color 0.5s, text 0.2s;
+  transition: background-color 0.5s, text 0.5s;
 }
 
 .movie-card__overlay_active {
