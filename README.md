@@ -25,3 +25,7 @@ Welcome to Haunted Tomatoes, a web app that brings you a spooky selection of Hal
 - JavaScript: Custom JavaScript functionality is used for the star rating feature.
 
 - CSS Transitions: Smooth transitions are implemented with CSS to enhance user interactions.
+
+
+## How to View
+To view this project, click this [link](https://chandlarlanier.github.io/oct_code_jam_team_2).
