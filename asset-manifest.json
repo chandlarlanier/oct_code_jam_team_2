@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/oct_code_jam_team_2/static/css/main.0ca313c0.css",
+    "main.js": "/oct_code_jam_team_2/static/js/main.bd52f263.js",
+    "static/js/787.1517a5ad.chunk.js": "/oct_code_jam_team_2/static/js/787.1517a5ad.chunk.js",
+    "static/media/logo.png": "/oct_code_jam_team_2/static/media/logo.4252b339fdc86af103fe.png",
+    "static/media/slick.svg": "/oct_code_jam_team_2/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/oct_code_jam_team_2/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/oct_code_jam_team_2/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/oct_code_jam_team_2/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/oct_code_jam_team_2/index.html",
+    "main.0ca313c0.css.map": "/oct_code_jam_team_2/static/css/main.0ca313c0.css.map",
+    "main.bd52f263.js.map": "/oct_code_jam_team_2/static/js/main.bd52f263.js.map",
+    "787.1517a5ad.chunk.js.map": "/oct_code_jam_team_2/static/js/787.1517a5ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ca313c0.css",
+    "static/js/main.bd52f263.js"
+  ]
+}
