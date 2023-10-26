@@ -11,10 +11,27 @@
 .main__app-description {
     width: 70%;
     margin-top: -1.5rem;
+    font-size: 1.5rem;
 }
 
 .main__carousel {
     margin-top: 3rem;
     width: 90vw;
     padding: 0 2rem;
+}
+
+@media (min-width: 800px) {
+    .main__app-description {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1800px) {
+    .main__app-description {
+        margin-top: 2rem;
+    }
+
+    .main__carousel {
+        margin-top: 6rem;
+    }
 }

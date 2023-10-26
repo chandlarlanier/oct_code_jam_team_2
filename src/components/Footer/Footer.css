@@ -7,3 +7,33 @@
   width: 97%;
   height: auto;
 }
+
+@media (min-width: 800px) {
+  .footer {
+    margin-top: 9rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .footer {
+    margin-top: 14rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    margin-top: 12rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .footer {
+    margin-top: 9rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .footer{
+    margin-top: 17rem;
+  }
+}

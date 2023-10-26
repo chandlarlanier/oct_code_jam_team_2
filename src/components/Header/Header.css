@@ -8,3 +8,9 @@
   height: 12rem;
   width: 13rem;
 }
+
+@media (min-width: 1800px) {
+  .header__logo {
+    
+  }
+}
