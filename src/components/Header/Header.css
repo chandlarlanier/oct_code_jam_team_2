@@ -1,16 +1,10 @@
 .header {
   display: flex;
-  padding: 0 1rem;
   width: 100%;
+  height: auto;
 }
 
 .header__logo {
-  height: 12rem;
-  width: 13rem;
-}
-
-@media (min-width: 1800px) {
-  .header__logo {
-    
-  }
+  height: 150px;
+  width: 175px;
 }

@@ -1,4 +1,4 @@
-// Array of Movie cards data
+// Array of movie cards data
 export const movieArray = [
   {
     title: "Monster House",
@@ -63,6 +63,13 @@ export const movieArray = [
   {
     title: "The Shining",
     card: "https://www.themoviedb.org/t/p/w188_and_h282_bestv2/xazWoLealQwEgqZ89MLZklLZD3k.jpg",
-    description: "The Shining is a horror film, based on Stephen King's novel. It follows the Torrance family as they move to an isolated hotel for the winter. The father, Jack Torrance, descends into madness due to supernatural forces in the hotel, while his son, Danny, has psychic abilities."
-  }
+    description:
+      "The Shining is a horror film, based on Stephen King's novel. It follows the Torrance family as they move to an isolated hotel for the winter. The father, Jack Torrance, descends into madness due to supernatural forces in the hotel, while his son, Danny, has psychic abilities.",
+  },
+  {
+    title: "The Addams Family",
+    card: "https://www.themoviedb.org/t/p/w188_and_h282_bestv2/qFf8anju5f2epI0my8RdwwIXFIP.jpg",
+    description:
+      "The Addams Family is a comedy film based on the classic television series. It centers around the eccentric and macabre Addams family as they navigate a peculiar family reunion. The arrival of long-lost Uncle Fester sparks a series of darkly humorous and bizarre events. The film is known for its offbeat characters, dark humor, and quirky charm.",
+  },
 ];

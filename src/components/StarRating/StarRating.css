@@ -1,17 +1,18 @@
 .star-rating {
+  margin-top: 50px;
 }
 
-button {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
+.star-rating__button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
-.on {
-    color: #fff;
+.star-rating__button_on {
+  color: #fff;
 }
 
-.off {
-    color: rgba(18, 18, 18, 0.4);
+.star-rating__button_off {
+  color: rgba(18, 18, 18, 0.4);
 }
